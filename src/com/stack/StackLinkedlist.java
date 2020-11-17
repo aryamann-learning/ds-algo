@@ -9,10 +9,6 @@ public class StackLinkedlist {
 	public void push(int x)
 	{
 		StackNode temp = new StackNode();
-		if (temp == null) {
-			System.out.print("\nStack Overflow");
-	      return;
-		}
 		temp.data = x;
 		temp.root = top;
 		top = temp;
