@@ -11,7 +11,7 @@ public class MultipleOfTwo {
 		System.out.println("enter second number");
 		num2 = sc.nextInt();
 		sc.close();
-		int product = num1 * num2;
+		int product = num1*num2;
 		System.out.println("Result is" + +product);
 	}
 

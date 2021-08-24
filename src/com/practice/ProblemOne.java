@@ -1,5 +1,6 @@
 
 /*1. Write a program to find sum of even numbers and odd numbers in an array and avg them
+
 (ex: ar{1,2,3,4,5,6} output1=(12+9)/2
 1) If any of the array element is negative store -1 into the output1 variable
 2) If the size of an array is negative store -2 into the output1 variable*/

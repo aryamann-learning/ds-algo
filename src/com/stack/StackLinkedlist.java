@@ -55,7 +55,6 @@ public class StackLinkedlist {
 		obj.push(4);
 
 		obj.display();
-
 		System.out.printf("\nTop element is %d\n", obj.peek());
 
 		obj.pop();

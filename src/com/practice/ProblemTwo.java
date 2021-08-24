@@ -13,35 +13,34 @@ package com.practice;
 import java.util.Arrays;
 
 public class ProblemTwo {
-	public static void main (String[]args){
-      int i=0;
-	int arr1[] = {1,2,3};
-	int arr2[]= {6,7,5};
-	Arrays.sort(arr1);
-	Arrays.sort(arr2);
-	
-	if (arr1.length <= 0 || arr2.length <= 0) {
-		int arr[]=new int[]{-2};
-		System.out.println(arr[i]);
-	}
-	for (i = 0; i < arr1.length; i++) {
-		if (arr1[i] < 0 || arr2[i]<0) {
-			int arr[]=new int[]{-1};
-			System.out.println(arr[i]);
-			break;
-		}
-		else{
-	String output1 =" ";
-	for(i=0;i<arr1.length;i++){
-		int num1= arr1[i];
-		int num2= arr2[i];
-		
-			output1 += Integer.toString(num1*num2)+ " ";
-			
-			
-	}
-	System.out.println("\nOutput="+output1);
-			
-		}}}
-	}
+	public static void main(String[] args) {
+		int i = 0;
+		int arr1[] = { 1, 2, 3 };
+		int arr2[] = { 6, 7, 5 };
+		Arrays.sort(arr1);
+		Arrays.sort(arr2);
 
+		if (arr1.length <= 0 || arr2.length <= 0) {
+			int arr[] = new int[] { -2 };
+			System.out.println(arr[i]);
+		}
+		for (i = 0; i < arr1.length; i++) {
+			if (arr1[i] < 0 || arr2[i] < 0) {
+				int arr[] = new int[] { -1 };
+				System.out.println(arr[i]);
+				break;
+			} else {
+				String output1 = " ";
+				for (i = 0; i < arr1.length; i++) {
+					int num1 = arr1[i];
+					int num2 = arr2[i];
+
+					output1 += Integer.toString(num1 * num2) + " ";
+
+				}
+				System.out.println("\nOutput=" + output1);
+
+			}
+		}
+	}
+}

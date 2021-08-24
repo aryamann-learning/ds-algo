@@ -1,3 +1,7 @@
+/*Write a program to multiply the positive numbers in an array.
+
+1) If the size of an array is negative store -2 into the output variable*/
+
 package com.practice;
 
 public class ProblemFour {

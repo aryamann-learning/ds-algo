@@ -1,6 +1,6 @@
 package inheritance;
 
-public class Child1 extends Parent {
+public class Childone extends Parent {
 	public String getname() {
 		return "Aryamann";
 
@@ -14,5 +14,6 @@ public class Child1 extends Parent {
 	public String getBloodgroup() {
 		return "B+ve";
 	}
+	
 
 }

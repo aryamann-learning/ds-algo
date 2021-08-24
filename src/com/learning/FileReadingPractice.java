@@ -21,7 +21,7 @@ public class FileReadingPractice {
         System.out.println(textFile.createNewFile());
         System.out.println(textFile.length());                        // length of file in bytes.
        System.out.println(wordFile.canRead());
-        FileReader reader = new FileReader(textFile);
+        FileReader reader = new FileReader(textFileTwo);
 
 		BufferedReader textBufferReader = new BufferedReader(reader);
 
